@@ -18,6 +18,8 @@
 </body>
 </html>
 ```
+---
+
 
 2. Tried and Fixed the bugs in give code snippet
 
@@ -39,6 +41,8 @@
 </body>
 </html>
 ```
+---
+
 
 3. Designed a contact us form with all fields as required.
 ```HTML
@@ -152,4 +156,101 @@ textarea {
     background-color: #45a049;
 }
 ```
+---
 
+4.Used a certain HTML elements to display the following mentioned in question on a HTML page
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Languages and Databases</title>
+</head>
+<body>
+    <h1>Topics</h1>
+    <ul>
+        <li>Programming Language
+            <ul>
+                <li>JavaScript
+                    <ol type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                </li>
+                <li>Python
+                    <ol type="a">
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li>
+                    </ol>
+                </li>
+                <li>Java
+                    <ol type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cassandra</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+```
+---
+5.Created an element that helps to open the https://google.com in separate new tab.
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Google in New Tab</title>
+</head>
+<body>
+    <h1>Open Google</h1>
+    <a href="https://google.com" target="_blank">Click here to open Google in a new tab</a>
+</body>
+</html>
+```
+---
+6.Created a page and added two radio buttons with grouping them for employee type(Salaried and own business).
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Type Form</title>
+</head>
+<body>
+    <h1>Employee Type Form</h1>
+    <form>
+        <label for="salaried">
+            <input type="radio" id="salaried" name="employeeType" value="Salaried">
+            Salaried
+        </label>
+        <br>
+        <label for="ownBusiness">
+            <input type="radio" id="ownBusiness" name="employeeType" value="OwnBusiness">
+            Own Business
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+```
+---
