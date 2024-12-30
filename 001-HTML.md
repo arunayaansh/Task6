@@ -83,7 +83,7 @@
 </html>
 ```
 
-```stlye
+```css
 
 /* style.css */
 
